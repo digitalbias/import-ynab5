@@ -12,6 +12,9 @@ Almost everything should be working now. Subtransactions and imported bank trans
 
 We also need to build a simple site that can be hosted on github that authorizes with YNAB and downloads it (there's already a [starter kit](https://github.com/ynab/ynab-api-starter-kit)).
 
+## Getting a budget to work with
+
+The "easiest" way to get a budget is to sign up for a developer API account with YNAB and then using the credentials use the https://api.youneedabudget.com/v1 API endpoints to get the the budget you want.**TODO**: Create a script that allows people to authorize and then download the json file for them. Right now you can only export to CSV from within YNAB itself.
 
 ## To run it
 
